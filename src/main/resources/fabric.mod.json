@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "bandana",
+  "version": "1.0.0",
+  "name": "Bandana Cosmetic Mod",
+  "description": "Display a bandana on your own player using OBJ model.",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.bandana.BandanaMod"],
+    "client": ["com.example.bandana.client.BandanaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": "1.21.4",
+    "objrenderer": "*"
+  }
+}
